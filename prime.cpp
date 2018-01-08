@@ -10,6 +10,7 @@ if(n%i==0)
 {
 c++;
 }
+}
 if(c==2)
 {
 cout<<"the number is prime";
@@ -18,7 +19,6 @@ else
 {
 cout<<"the number is not prime";
 }
-}
-}
+
 
     © 2018 GitH
