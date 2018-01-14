@@ -7,6 +7,8 @@ void main()
   for(i=n;i<=m;i++)
   {
     if(n%2==0)
-    cout<<n;
+    {
+      cout<<n;
+    }
   }
 }
