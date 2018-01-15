@@ -10,7 +10,7 @@ void main()
   {
     if(i%2==1)
     {
-      cout<<i;
+      cout<<i<<"\t";
     }
   getch();
 }
