@@ -17,6 +17,12 @@ void main()
     if(b<a[i]);
     else
     {
+      b=a[i];
+    }
+  }
+  cout<<b;
+  getch();
+}
       
       
       
