@@ -11,6 +11,13 @@ void main()
   {
     cin<<a[i];
   }
-  for(i=0;i<n;i++)
+  b=a[0];
+  for(i=1;i<n;i++)
   {
-    
+    if(b<a[i]);
+    else
+    {
+      
+      
+      
+        
