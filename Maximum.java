@@ -4,24 +4,24 @@ class Maximum
 	public static void main(String args[])
 	{
 		int a[]=new int[100];
-		int min,n;
+		int max,n;
 		Scanner sc=new Scanner(System.in);
-    n=sc.nextInt();
+                n=sc.nextInt();
 		for(int i=0;i<n;i++)
 		{
 			System.out.println("enter values"+i);
 			a[i]=sc.nextInt();
 		}
-		min=a[0];
+		max=a[0];
 		for(int j=1;j<n;j++)
 		{
-			if(min<a[j])
+			if(max<a[j])
 			{
-				min=a[j];
+				max=a[j];
 			}
 				
 		}
-		System.out.println("maximum is"+min);
+		System.out.println("maximum is"+max);
 		sc.close();
 	}
 }
