@@ -21,7 +21,7 @@ class Maximum
 			}
 				
 		}
-		System.out.println("minimum is"+min);
+		System.out.println("maximum is"+min);
 		sc.close();
 	}
 }
