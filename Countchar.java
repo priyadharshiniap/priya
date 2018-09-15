@@ -23,7 +23,8 @@ class CountChar
     }
     public static void main(String[] args)
     {
-        String str = "geeks for geeks";
+        Scanner sc=new Scanner();
+        String str = sc.next(System.in);
         count(str);
     }
 }
