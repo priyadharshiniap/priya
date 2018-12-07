@@ -1,3 +1,4 @@
+import java.util.*;
 class CountChar
 {
     static void count(String str)
@@ -22,8 +23,8 @@ class CountChar
     }
     public static void main(String[] args)
     {
-        Scanner sc=new Scanner();
-        String str = sc.next(System.in);
+        Scanner sc=new Scanner(System.in);
+        String str = sc.next();
         count(str);
     }
 }
