@@ -26,3 +26,5 @@ class Minimum1
 		System.out.println("minimum is"+min);
 		sc.close();
 	}
+	}
+}
