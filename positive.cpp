@@ -1,9 +1,8 @@
 #include<iostream.h>
-#include<conio.h>
-void main()
+using namespace std;
+int main()
 {
   int a;
-  clrscr();
   cout<<enter the number;
   cin>>a;
   if(a<0)
@@ -18,5 +17,5 @@ void main()
   {
     cout<<a<<"is zero";
   }
-  getch();
   return 0;
+}
