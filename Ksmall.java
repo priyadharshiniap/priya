@@ -1,9 +1,11 @@
 import java.util.*;
-public class Ksmall
+import java.lang.*;
+import java.io.*;
+class Ksmall
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
-	    Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();
 	    int k=sc.nextInt();
 	    int i,j,b;
