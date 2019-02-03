@@ -1,9 +1,11 @@
 import java.util.*;
-public class Kodd
+import java.lang.*;
+import java.io.*;
+class Kodd
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
-	    Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();
 	    int k=sc.nextInt();
 	    int i,j=0;
