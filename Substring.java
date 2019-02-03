@@ -29,6 +29,6 @@ public class Substring
 	            c=count;
 	        }
 	    }
-		System.out.println(c);
+	    System.out.println(c);
 	}
 }
