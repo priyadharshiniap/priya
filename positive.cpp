@@ -1,21 +1,20 @@
-#include<iostream.h>
+#include <iostream>
 using namespace std;
 int main()
 {
-  int a;
-  cout<<enter the number;
+	int a;
   cin>>a;
   if(a<0)
   {
-    cout<<a<<"is negative";
+    cout<<"Negative";
   }
   else if(a>0)
   {
-    cout<<a<<"is positive";
+    cout<<"Positive";
   }
   else
   {
-    cout<<a<<"is zero";
+    cout<<"Zero";
   }
-  return 0;
+	return 0;
 }
