@@ -1,16 +1,15 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include<iostream>
+using namespace std;
+int main()
 {
   int a,b,i;
   clrscr();
-  cout<<"enter interval";
   cin>>a>>b;
-  for(i=a;i<=b;i++)
+  for(i=a+1;i<b;i++)
   {
     if(i%2==1)
     {
-      cout<<i<<"\t";
+      cout<<i<<" ";
     }
-  getch();
+  }
 }
