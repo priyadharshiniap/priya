@@ -9,7 +9,6 @@ class Maximum
                 n=sc.nextInt();
 		for(int i=0;i<n;i++)
 		{
-			System.out.println("enter values"+i);
 			a[i]=sc.nextInt();
 		}
 		max=a[0];
@@ -21,7 +20,7 @@ class Maximum
 			}
 				
 		}
-		System.out.println("maximum is"+max);
+		System.out.println(max);
 		sc.close();
 	}
 }
