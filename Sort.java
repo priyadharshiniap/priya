@@ -25,7 +25,7 @@ class Sort
   }
   for(k=0;k<n;k++)
   {
-    System.out.print(a[k]+" ");
+    System.out.print(a[k]+"  ");
   }
   }
 }
