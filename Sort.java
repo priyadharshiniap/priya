@@ -6,9 +6,7 @@ class Sort
     Scanner sc=new Scanner(System.in);
     int i,j,m,n,k,t;
     int a[]=new int[100];
-    System.out.println("enter the value of n");
     n=sc.nextInt();
-    System.out.println("enter "+n+" values");
     for(i=0;i<n;i++)
     {
       a[i]=sc.nextInt();
@@ -25,10 +23,9 @@ class Sort
       }
     }
   }
-  System.out.println("sorting elements are");
   for(k=0;k<n;k++)
   {
-    System.out.println(a[k]);
+    System.out.print(a[k]+" ");
   }
   }
 }
