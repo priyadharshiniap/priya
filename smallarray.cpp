@@ -1,12 +1,8 @@
 #include<iostream.h>
-#include<conio.h>
-void main()
+int main()
 {
   int a[100],n,i,b;
-  clrscr();
-  cout<<"enter no of elements";
   cin>>n;
-  cout<<"enter array elements";
   for(i=0;i<n;i++)
   {
     cin<<a[i];
@@ -21,7 +17,7 @@ void main()
     }
   }
   cout<<b;
-  getch();
+  return 0;
 }
       
       
