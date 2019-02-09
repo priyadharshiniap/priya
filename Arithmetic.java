@@ -7,7 +7,7 @@ class Arithmetic
     int n=sc.nextInt();
     int a=sc.nextInt();
     int d=sc.nextInt();
-    int ap=((n/2)*((2*a)+((n-1)*d)));
+    int ap=((n*((2*a)+((n-1)*d)))/2);
     System.out.println(ap);
   }
 }
