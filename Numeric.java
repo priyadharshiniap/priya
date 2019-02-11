@@ -1,9 +1,11 @@
 import java.util.*;
-public class numeric
+import java.lang.*;
+import java.io.*;
+class Numeric
 {
-    public static void main(String []args)
-    {
-        int i,a=0;
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int i,a=0;
         Scanner sc=new Scanner(System.in);
         String ss=sc.next();
         int n=ss.length();
@@ -27,5 +29,5 @@ public class numeric
         {
             System.out.println("no");
         }
-     }
+	}
 }
