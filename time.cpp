@@ -1,13 +1,11 @@
-#inlcude<iostream.h>
-#include<conio.h>
-void main()
+#inlcude <iostream>
+using namespace std;
+int main()
 {
   int a,b,c;
-  clrscr();
-  cout<<"enter time in minutes";
   cin>>a;
   b=a/60;
   c=a%60;
-  cout<<b<<"hours"<<c<<"minutes";
-  getch();
+  cout<<b<<" "<<c<<" ";
+  return 0;
 }
