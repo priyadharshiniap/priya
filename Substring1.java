@@ -1,5 +1,5 @@
 import java.util.*;
-public class Substring
+public class Substring1
 {
 	public static void main(String[] args)
 	{
