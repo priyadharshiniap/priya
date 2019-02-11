@@ -1,8 +1,9 @@
 import java.util.*;
 import java.lang.*;
-public class Factor
+import java.io.*;
+class Ideone
 {
-	public static void main(String args[])
+	public static void main (String[] args) throws java.lang.Exception
 	{
 		int a,count=0,i,b;
 		Scanner sc=new Scanner(System.in);
