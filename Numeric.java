@@ -23,7 +23,7 @@ class Numeric
         }
         if(a==0)
         {
-            System.out.println("yes");
+            System.out.println("Yes");
         }
         else
         {
