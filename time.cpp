@@ -6,6 +6,6 @@ int main()
   cin>>a;
   b=a/60;
   c=a%60;
-  cout<<b<<" "<<c<<" ";
+  cout<<b<<" "<<c;
   return 0;
 }
