@@ -1,21 +1,17 @@
 import java.util.*;
-public class Countword
+import java.lang.*;
+import java.io.*;
+class Countword
 {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        String str ="guvi codekata beginner";
-        int n=str.length();
-        int count=1;
-        char ch[]=str.toCharArray();
-        for(int j=0;j<n;j++)
+        int a=0;
+        while(sc.hasNextLine())
         {
-            if(ch[j]==' ')
-            {
-                j++;
-                count=count+1;
-            }
+        	String str=sc.next();
+            a=a+1;
         }
-        System.out.println(str+"--->"+count);
+        System.out.println(a);
     }
 }
