@@ -12,7 +12,7 @@ class Countspecial
         		char ch[]=str.toCharArray();
         		for(int j=0;j<n;j++)
         		{
-            			if((ch[j]>='a'&&ch[j]<='z')||ch[j]==' '||(ch[j]>='0'&&ch[j]<='9'));
+            			if((ch[j]>='a'&&ch[j]<='z')||ch[j]==' '||(ch[j]>='0'&&ch[j]<='9')||(ch[j]>='A'&&ch[j]<='Z'));
             			else
             			{
                 			count++;
