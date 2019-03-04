@@ -1,6 +1,5 @@
 import java.util.*;
 import java.lang.*;
-import java.io.*;
 class Countline
 {
     public static void main(String[] args)
@@ -19,7 +18,7 @@ class Countline
                 	j++;
                 	count=count+1;
             	}
-        	}
+            }
 	}
         System.out.println(count);
     }
