@@ -1,9 +1,11 @@
 import java.util.*;
-public class Average
+import java.lang.*;
+import java.io.*;
+class Average
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
-	    int n,i,total=0,avg;
+		int n,i,total=0,avg;
 	    Scanner sc=new Scanner(System.in);
 	    n=sc.nextInt();
 	    int a[]=new int[n];
