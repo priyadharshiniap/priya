@@ -1,9 +1,11 @@
 import java.util.*;
-public class Maximum
+import java.lang.*;
+import java.io.*;
+class Maximum1
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
-	    Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 		int a[]=new int[10];
 		int i,max=0;
 		for(i=0;i<10;i++)
@@ -13,7 +15,6 @@ public class Maximum
 		    {
 		        max=a[i];
 		    }
-		    //System.out.println(max);
 		}
 		System.out.println(max);
 	}
