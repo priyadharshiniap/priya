@@ -1,9 +1,11 @@
 import java.util.*;
-public class Lowmax
+import java.lang.*;
+import java.io.*;
+class Lowmax
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
-	    int n,i,min,max;
+		int n,i,min,max;
 	    Scanner sc=new Scanner(System.in);
 	    n=sc.nextInt();
 	    int a[]=new int[n];
