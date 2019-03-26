@@ -1,9 +1,11 @@
 import java.util.*;
-public class Stringconcat
+import java.lang.*;
+import java.io.*;
+class Stringconcat
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
-	    String a,b,c;
+		String a,b,c;
 	    Scanner sc=new Scanner(System.in);
 	    a=sc.next();
 	    b=sc.next();
