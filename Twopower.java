@@ -1,9 +1,11 @@
 import java.util.*;
-public class Twopower
+import java.lang.*;
+import java.io.*;
+class Twopower
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
-	    int a,b,c=0,d=1;
+		int a,b,c=0,d=1;
 	    Scanner sc=new Scanner(System.in);
 	    a=sc.nextInt();
 	    while(a>2)
