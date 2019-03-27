@@ -1,51 +1,52 @@
 import java.util.*;
 import java.lang.*;
-public class Numtoword
+import java.io.*;
+class Numtoword
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
-	    Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 	    int i,j=0;
 	    int a=sc.nextInt();
 	    if(a==1)
 	    {
-	        System.out.print("one");
+	        System.out.print("One");
 	    }
 	    if(a==2)
 	    {
-	        System.out.print("two");
+	        System.out.print("Two");
 	    }
 	    if(a==3)
 	    {
-	        System.out.print("three");
+	        System.out.print("Three");
 	    }
 	    if(a==4)
 	    {
-	        System.out.print("four");
+	        System.out.print("Four");
 	    }
 	    if(a==5)
 	    {
-	        System.out.print("five");
+	        System.out.print("Five");
 	    }
 	    if(a==6)
 	    {
-	        System.out.print("six");
+	        System.out.print("Six");
 	    }
 	    if(a==7)
 	    {
-	        System.out.print("seven");
+	        System.out.print("Seven");
 	    }
 	    if(a==8)
 	    {
-	        System.out.print("eight");
+	        System.out.print("Eight");
 	    }
 	    if(a==9)
 	    {
-	        System.out.print("nine");
+	        System.out.print("Nine");
 	    }
 	    if(a==10)
 	    {
-	        System.out.print("ten");
+	        System.out.print("Ten");
 	    }
 	}
-}
+}f
