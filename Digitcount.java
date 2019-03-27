@@ -10,6 +10,6 @@ class Digitcount
 	    int a=sc.nextInt();
 	    double b=Math.log10(a);
 	    int c=((int) b)+1;
-	    System.out.print(c);
+	    System.out.println(c);
 	}
 }
