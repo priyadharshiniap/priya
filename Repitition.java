@@ -1,9 +1,11 @@
 import java.util.*;
-public class Repitition
+import java.lang.*;
+import java.io.*;
+class Repitition
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
-	    Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 	    int i,count=0;
 	    int a=sc.nextInt();
 	    int b=sc.nextInt();
