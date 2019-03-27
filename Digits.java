@@ -1,8 +1,9 @@
 import java.util.*;
 import java.lang.*;
-public class Digits
+import java.io.*;
+class Digits
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
 	    Scanner sc=new Scanner(System.in);
 	    int i,j;
@@ -15,9 +16,10 @@ public class Digits
 	        e[i]=a%10;
 	        a=a/10;
 	    }
-	    for(j=0;j<c;j++)
+	    System.out.print(e[0]);
+	    for(j=1;j<c;j++)
 	    {
-	        System.out.print(e[j]+" ");
+	        System.out.print(" "+e[j]);
 	    }
 	}
 }
