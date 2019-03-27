@@ -1,10 +1,11 @@
 import java.util.*;
 import java.lang.*;
-public class Digitcount
+import java.io.*;
+class Digitcount
 {
-	public static void main(String[] args)
+	public static void main (String[] args) throws java.lang.Exception
 	{
-	    Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 	    int i,j=0;
 	    int a=sc.nextInt();
 	    double b=Math.log10(a);
