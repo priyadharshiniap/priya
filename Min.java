@@ -1,8 +1,10 @@
 import java.util.*;
 import java.lang.*;
-public class Min
+import java.io.*;
+
+class Min
 {
-	public static void main(String args[])
+	public static void main (String[] args) throws java.lang.Exception
 	{
 		int a[]=new int[10];
 		int min=0,k;
