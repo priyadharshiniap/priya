@@ -1,8 +1,9 @@
 import java.util.*;
 import java.lang.*;
-public class Addeven
+import java.io.*;
+class Addeven
 {
-	public static void main(String args[])
+	public static void main (String[] args) throws java.lang.Exception
 	{
 		int a,b,c;
 		Scanner sc=new Scanner(System.in);
